@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/nature" />
+
+    <TextView
+        android:layout_width="387dp"
+        android:layout_height="85dp"
+        android:layout_above="@id/play"
+        android:layout_below="@id/highScoreTxt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-22dp"
+        android:layout_marginBottom="31dp"
+        android:fontFamily="@font/bangers"
+        android:gravity="top|center"
+        android:text="Bhaggo Selmon Bhoi"
+        android:textColor="#ffffff"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/play"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/bangers"
+        android:text="Play"
+        android:textColor="#ffffff"
+        android:textSize="64sp" />
+
+    <TextView
+        android:id="@+id/highScoreTxt"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif-light"
+        android:text="High Score"
+        android:textColor="#ffff"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:id="@+id/volumeCtrl"
+        android:src="@drawable/ic_volume_up_black_24dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_above="@id/play"
+        android:layout_below="@id/highScoreTxt"
+        android:layout_marginTop="79dp"
+        android:layout_marginBottom="-246dp"
+        android:fontFamily="@font/bangers"
+        android:src="@drawable/selmonbhoi"
+        android:text="Bhaggo Selmon Bhoi"
+        android:textColor="#ffffff"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="@string/tips_left_side_for_moving_selmon_bhoi_car_tap_for_up_release_tap_for_down_tap_right_side_for_fire_bullets_note_is_never_miss_deer_other_wise_game_over"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp" />
+
+
+</RelativeLayout>

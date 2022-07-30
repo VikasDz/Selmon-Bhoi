@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="TODO"
+        android:scaleType="centerCrop"
+        android:src="@drawable/nature" />
+
+
+    <TextView
+        android:layout_width="387dp"
+        android:layout_height="85dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="174dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="170dp"
+        android:fontFamily="@font/bangers"
+        android:gravity="top|center"
+        android:text="Bhaggo Selmon Bhoi"
+        android:textColor="#ffffff"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:id="@+id/bhoicar"
+        android:layout_width="510dp"
+        android:layout_height="326dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-20dp"
+        android:layout_marginTop="-48dp"
+        android:layout_marginEnd="241dp"
+        android:layout_marginBottom="-53dp"
+        android:fontFamily="@font/bangers"
+        android:src="@drawable/selmonbhoishoot1"
+        android:text="Bhaggo Selmon Bhoi"
+        android:textColor="#ffffff"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:id="@+id/deer"
+        android:layout_width="510dp"
+        android:layout_height="326dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="298dp"
+        android:layout_marginTop="-48dp"
+        android:layout_marginEnd="-77dp"
+        android:layout_marginBottom="-109dp"
+        android:fontFamily="@font/bangers"
+        android:src="@drawable/deer1"
+        android:text="Bhaggo Selmon Bhoi"
+        android:textColor="#ffffff"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:id="@+id/deer2"
+        android:layout_width="423dp"
+        android:layout_height="241dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="187dp"
+        android:layout_marginTop="-48dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="-55dp"
+        android:fontFamily="@font/bangers"
+        android:src="@drawable/deer1"
+        android:text="Bhaggo Selmon Bhoi"
+        android:textColor="#ffffff"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:id="@+id/deer3"
+        android:layout_width="327dp"
+        android:layout_height="209dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="-48dp"
+        android:layout_marginEnd="261dp"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/bangers"
+        android:rotation="-142"
+        android:rotationY="-8"
+        android:src="@drawable/deer1"
+        android:text="Bhaggo Selmon Bhoi"
+        android:textColor="#ffffff"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:id="@+id/deer5"
+        android:layout_width="327dp"
+        android:layout_height="209dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-64dp"
+        android:layout_marginTop="-48dp"
+        android:layout_marginEnd="467dp"
+        android:layout_marginBottom="92dp"
+        android:fontFamily="@font/bangers"
+        android:rotation="-166"
+        android:rotationY="-8"
+        android:src="@drawable/deer1"
+        android:text="Bhaggo Selmon Bhoi"
+        android:textColor="#ffffff"
+        android:textSize="40sp" />
+
+
+</RelativeLayout>
